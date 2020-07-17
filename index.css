@@ -1,23 +1,6 @@
 body {
 	font-family: Noto Serif JP, serif;
 }
-main {
-	display:         flex;
-	justify-content: center;
-	align-items:     center;
-	resize:          both;
-	overflow:        auto;
-	margin:          0 auto;
-	height:          63em;
-	width:           40%;
-	padding:         1em;
-}
-main div {
-	resize:   both;
-	overflow: auto;
-	width:    100%;
-	padding:  1em;
-}
 h1 {
 	font-weight:  normal;
 	font-variant: small-caps;
@@ -35,6 +18,7 @@ a {
 	border-bottom:	 0.0625em dotted;
 }
 a:hover {
-	color:         #000000;
-	border-bottom: 0.0625em solid;
+	color:           #000000;
+	text-decoration: none;
+	border-bottom:   0.0625em solid;
 }
