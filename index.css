@@ -7,7 +7,7 @@ h1 { font-variant: small-caps; font-weight: normal; margin: 2.0% 0; }
 
 p { margin: 3.0% 0; }
 @media all and (orientation:portrait)  { p { font-size: 2.0vh; line-height: 4.0vh; }}
-@media all and (orientation:landscape) { p { font-size: 1.5vw; line-height: 3.0vw; }}
+@media all and (orientation:landscape) { p { font-size: 1.6vw; line-height: 3.2vw; }}
 
 a, a:hover { text-decoration: none; color: #000000; }
 a { border-bottom: 0.1vmin dotted; }
