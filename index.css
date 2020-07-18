@@ -1,7 +1,14 @@
 body { font-family: Noto Serif JP, serif; }
-main { padding: 3%; }
-h1 { font-size: 4.0vh; margin: 1.5% 0; }
-p { font-size: 2.0vh; line-height: 3.5vh; margin: 1.5% 0; }
+main { padding: 3.0%; }
+
+h1 { font-variant: small-caps; font-weight: normal; margin: 2.0% 0; }
+@media all and (orientation:portrait)  { h1 { font-size: 4.0vh; }}
+@media all and (orientation:landscape) { h1 { font-size: 4.0vw; }}
+
+p { margin: 3.0% 0; }
+@media all and (orientation:portrait)  { p { font-size: 2.0vh; line-height: 4.0vh; }}
+@media all and (orientation:landscape) { p { font-size: 1.5vw; line-height: 3.0vw; }}
+
 a, a:hover { text-decoration: none; color: #000000; }
-a { border-bottom: 0.1vh dotted; }
-a:hover { border-bottom: 0.1vh solid; }
+a { border-bottom: 0.1vmin dotted; }
+a:hover { border-bottom: 0.1vmin solid; }
