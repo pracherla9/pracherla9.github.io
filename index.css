@@ -1,22 +1,7 @@
-body {
-	font-family: Noto Serif JP, serif;
-}
-h1 {
-	font-size: 4.0vh;
-	margin:    3% 0;
-}
-p {
-	font-size:   2.0vh;
-	line-height: 3.5vh;
-	margin:      2% 0;
-}
-a, a:hover {
-	text-decoration: none;
-	color:           #000000;
-}
-a {
-	border-bottom: 0.1vh dotted;
-}
-a:hover {
-	border-bottom: 0.1vh solid;
-}
+body { font-family: Noto Serif JP, serif; }
+main { padding: 3%; }
+h1 { font-size: 4.0vh; margin: 1.5% 0; }
+p { font-size: 2.0vh; line-height: 3.5vh; margin: 1.5% 0; }
+a, a:hover { text-decoration: none; color: #000000; }
+a { border-bottom: 0.1vh dotted; }
+a:hover { border-bottom: 0.1vh solid; }
